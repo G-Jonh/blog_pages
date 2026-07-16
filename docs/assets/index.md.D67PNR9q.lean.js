@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r,a0 as s}from"./chunks/framework.CoSatZgi.js";const h=JSON.parse('{"title":"冬雪","description":"","frontmatter":{"layout":"home"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),c={name:"index.md"};function l(i,a,o,d,n,p){return t(),r("div",null,[...a[0]||(a[0]=[s("",3)])])}const m=e(c,[["render",l]]);export{h as __pageData,m as default};
