@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "vitepress build source",
+    "check": "node scripts/check-site.mjs",
+    "prebuild": "node scripts/generate-index.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}
