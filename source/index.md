@@ -6,7 +6,7 @@
   <a class="blog-card" href="./posts/tech/">
     <h3>技术日志</h3>
     <p>技术探索与编程笔记，归纳学习路线</p>
-    <span>7 篇文章 →</span>
+    <span>0 篇文章 →</span>
   </a>
   <a class="blog-card" href="./posts/projects/">
     <h3>造物手记</h3>

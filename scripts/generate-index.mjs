@@ -47,4 +47,3 @@ const categoryLinks = grouped.map(category => `- [${category.title}（${category
 writeFileSync(join(source, 'index.md'), `# 冬雪\n\n## 无限进步！\n\n<div class="blog-cards">\n${cards}\n</div>\n`)
 writeFileSync(join(postsRoot, 'index.md'), `# 文章\n\n${categoryLinks}\n`)
 writeFileSync(join(source, 'categories', 'index.md'), `# 分类\n\n${categoryLinks}\n`)
-writeFileSync(join(source, '.vitepress', 'generated-sidebar.ts'), `export default ${JSON.stringify(grouped.map(category => ({ text: category.title, items: category.articles.map(article => ({ text: article.title, link: article.url })) })), null, 2)}\n`)
