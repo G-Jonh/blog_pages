@@ -41,7 +41,7 @@ for (const category of grouped) {
   writeFileSync(join(postsRoot, category.id, 'index.md'), content)
 }
 
-const cards = grouped.map(category => `  <a class="blog-card" href="./posts/${category.id}/">\n    <h3>${category.title}</h3>\n    <p>${category.description}</p>\n    <span>${category.articles.length} 篇文章 →</span>\n  </a>`).join('\n')
+const cards = grouped.map(category => `  <a class="blog-card" href="./posts/${category.id}/">\n    <h3>${category.title}</h3>\n    <p>${category.description}</p>\n  </a>`).join('\n')
 const categoryLinks = grouped.map(category => `- [${category.title}（${category.articles.length} 篇）](/posts/${category.id}/)`).join('\n')
 
 writeFileSync(join(source, 'index.md'), `# 冬雪\n\n## 无限进步！\n\n<div class="blog-cards">\n${cards}\n</div>\n`)

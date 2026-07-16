@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as t,ae as r}from"./chunks/framework.uHc66kHv.js";const _=JSON.parse('{"title":"冬雪","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),o={name:"index.md"};function n(c,a,d,p,i,l){return s(),t("div",null,[...a[0]||(a[0]=[r("",3)])])}const f=e(o,[["render",n]]);export{_ as __pageData,f as default};
