@@ -9,6 +9,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: false,
+    outline: false,
     nav: [
       { text: '首页', link: '/' },
       { text: '文章', link: '/posts/' },
